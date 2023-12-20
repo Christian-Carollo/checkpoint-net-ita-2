@@ -10,5 +10,6 @@ namespace net_ita_2_checkpoint.Services.Interfaces
         Task CreateRoomAsync(CreateRoomDTO dto);
         Task UpdateRoomAsync(UpdateRoomDTO dto);
         Task DeleteRoomAsync(Guid id);
+        Task DeleteAllRoomAsync();
     }
 }
